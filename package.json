@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev:mobile": "npx nx serve mobile",
-    "dev:web": "npx nx dev web"
+    "dev:web": "npx nx dev web",
+    "dev:backend": "npm nx serve backend"
   },
   "private": true,
   "dependencies": {
