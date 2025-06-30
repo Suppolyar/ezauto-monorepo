@@ -13,5 +13,5 @@ export class User {
   passwordHash!: string;
 
   @OneToMany(() => Car, (car) => car.user)
-  cars: Car[] = [];
+  cars!: Car[];
 }
