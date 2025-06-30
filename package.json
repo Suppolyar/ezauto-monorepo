@@ -2,7 +2,10 @@
   "name": "@ezauto-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:mobile": "npx nx serve mobile",
+    "dev:web": "npx nx dev web"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.0",
@@ -31,6 +34,7 @@
     "@nx/nest": "^21.2.1",
     "@nx/next": "^21.2.1",
     "@nx/node": "21.2.1",
+    "@nx/react": "21.2.1",
     "@nx/react-native": "21.2.1",
     "@nx/vite": "21.2.1",
     "@nx/web": "21.2.1",
@@ -45,13 +49,17 @@
     "@swc/cli": "~0.6.0",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@testing-library/dom": "10.4.0",
     "@testing-library/jest-native": "~5.4.3",
+    "@testing-library/react": "16.1.0",
     "@testing-library/react-native": "~12.9.0",
-    "@types/node": "18.16.9",
+    "@types/node": "^20.0.0",
     "@types/react": "~18.3.12",
     "@types/react-dom": "~18.3.1",
     "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "^3.0.5",
     "@vitest/ui": "^3.0.0",
+    "ajv": "^8.0.0",
     "autoprefixer": "10.4.13",
     "eslint": "^9.8.0",
     "eslint-config-next": "^15.2.4",
@@ -76,11 +84,13 @@
     "typescript": "~5.8.2",
     "typescript-eslint": "^8.29.0",
     "vite": "^6.0.0",
+    "vite-plugin-dts": "~4.5.0",
     "vitest": "^3.0.0",
     "webpack-cli": "^5.1.4"
   },
   "workspaces": [
     "apps/*",
-    "ui"
+    "ui",
+    "libs/*"
   ]
 }
