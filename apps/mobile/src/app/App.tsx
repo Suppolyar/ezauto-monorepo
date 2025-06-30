@@ -7,7 +7,7 @@ export const App = () => {
 
   return (
     <>
-      <Text>EzAuto Mobile app</Text>
+      <Text >EzAuto Mobile app</Text>
       <EzautoMonorepoUi />
     </>
   );
