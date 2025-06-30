@@ -10,6 +10,7 @@
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.0",
     "@nestjs/jwt": "^11.0.0",
     "@nestjs/passport": "^11.0.5",
@@ -67,7 +68,8 @@
     "@testing-library/react": "16.1.0",
     "@testing-library/react-native": "~12.9.0",
     "@types/bcrypt": "^5.0.2",
-    "@types/node": "^20.0.0",
+    "@types/node": "^20.19.2",
+    "@types/passport-jwt": "^4.0.1",
     "@types/react": "~18.3.12",
     "@types/react-dom": "~18.3.1",
     "@vitejs/plugin-react": "^4.2.0",
