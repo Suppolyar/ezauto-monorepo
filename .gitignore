@@ -119,3 +119,6 @@ vitest.config.*.timestamp*
 # Next.js
 .next
 out
+
+# Local SQLite DB
+db.sqlite
