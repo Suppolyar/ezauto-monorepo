@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import MyNewComponent from './my-new-component';
+import EzautoMonorepoUi from './ui';
 
-describe('MyNewComponent', () => {
+describe('EzautoMonorepoUi', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<MyNewComponent />);
+    const { baseElement } = render(<EzautoMonorepoUi />);
     expect(baseElement).toBeTruthy();
   });
 });

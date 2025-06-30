@@ -16,10 +16,7 @@
       "path": "./apps/backend"
     },
     {
-      "path": "./ui"
-    },
-    {
-      "path": "./libs/my-new-lib"
+      "path": "./libs/shared/ui"
     }
   ]
 }
